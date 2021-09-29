@@ -72,7 +72,7 @@
   * ----------------------------------------------------- */
 
 /* ## Selection */
-::-webkit-selection {
+/* ::-webkit-selection {
     color: rgb(255, 255, 255);
     background: rgb(250, 134, 147, 0.75);
 }
@@ -80,7 +80,7 @@
 ::selection {
     color: rgb(255, 255, 255);
     background: rgb(250, 134, 147, 0.75);
-}
+} */
 
 /* ## Cursor* */
 
@@ -2225,7 +2225,7 @@ ul.hero-list.hero-list--inline li {
 /* ## Products */
 .products-card {
     display: block;
-    background-color: transparent;
+    background-color: var(--primary-light);
     border-radius: 6px;
     margin-bottom: 4rem;
     padding: 6rem 3rem 4rem;
