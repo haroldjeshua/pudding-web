@@ -33,7 +33,7 @@
 
     <header class="s-header">
         <div class="header-logo">
-            <a class="site-logo" href="./">
+            <a class="site-logo" href="./" title="Home">
                 <div class="logo-text">
                     <img src="assets/img/logo/pudding-logo.png" alt="">
                 </div>
@@ -42,11 +42,18 @@
 
         <nav class="row header-nav-wrap wide">
             <ul class="header-main-nav">
-                <li class="active"><a href="./" title="Home">Home</a></li>
-                <li><a href="products.html" title="Products">Products</a></li>
-                <li><a href="docs.html" title="Docs">Docs &amp; Tools</a></li>
+                <li class="active"><a href="products.html" title="Products">Products</a></li>
                 <li><a href="pricing.html" title="Pricing">Pricing</a></li>
-                <li><a href="#!" title="More">More <i class="fas fa-chevron-down"></i></a></li>
+                <li><a href="about.html" title="About">About Us</a></li>
+                <li><a href="faqs.html" title="FAQs">FAQs</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" title="More">More <i class="fa fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="docs.html" title="Docs">Docs</a>
+                        <a href="developers.html" title="Developers">Developers</a>
+                        <a href="blog.html" title="Blog">Blog</a>
+                    </div>
+                </li>
             </ul>
 
             <ul class="header-social">
@@ -573,58 +580,60 @@
     </section>
 
     <section id="why" class="s-section section--greyest target-section">
-        <div class="row narrow section-header" data-aos="fade-up">
+        <div class="row narrow section-header center-align" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead center-align">Make a switch now</h3>
+                <h3 class="subhead">Make a switch now</h3>
                 
-                <h1 class="display-1 center-align">Why switch to us?</h1>
+                <h1 class="display-1">Why switch to us?</h1>
+
+                <p class="lead">Pudding supports all multi-factor authentication services.</p>
                 
-                <ul class="stats-tabs center-align">
+                <ul class="stats-tabs">
                     <li class="switch-item active" data-switch="switch-new"><a>☑️ In with the new</a></li>
-                    <li class="switch-item" data-switch="switch-old"><a style="color: red;">❌ Out with the old </a></li>
+                    <li class="switch-item" data-switch="switch-old"><a>❌ Out with the old </a></li>
                 </ul>
+            </div>
 
-                <div class="col-full switch-block switch-new">
-                    <h2 class="center-align mb-16">Redesigned 2FA OTP tokens</h2>
+            <div class="col-full switch-block switch-new">
+                <h2 class="center-align mb-16">Redesigned 2FA OTP tokens</h2>
 
+                <div class="col-six">
+                    <img src="assets/img/products/rectangle.png" alt="" class="pudding-tilt">
+                </div>
+                <div class="col-six pt-12">
+                    <div class="switch-new--features"><img src="assets/img/products/1.png" alt=""> Colored</div>
+                    <div class="switch-new--features"><img src="assets/img/products/2.png" alt=""> 3.92cm screen</div>
+                    <div class="switch-new--features"><img src="assets/img/products/3.png" alt=""> 152x152 resolution</div>
+                </div>
+
+                <div class="col-full mt-10">
                     <div class="col-six">
-                        <img src="assets/img/products/rectangle.png" alt="" class="pudding-tilt">
+                        <ul class="pudding-check-list">
+                            <li>Larger display that fits in the palm of your hand</li>
+                            <li>5-years battery life cycle</li>
+                        </ul>
                     </div>
-                    <div class="col-six pt-12">
-                        <div class="switch-new--features"><img src="assets/img/products/1.png" alt=""> Colored</div>
-                        <div class="switch-new--features"><img src="assets/img/products/2.png" alt=""> 3.92cm screen</div>
-                        <div class="switch-new--features"><img src="assets/img/products/3.png" alt=""> 152x152 resolution</div>
-                    </div>
-
-                    <div class="col-full mt-10">
-                        <div class="col-six">
-                            <ul class="pudding-check-list">
-                                <li>Larger display that fits in the palm of your hand</li>
-                                <li>5-years battery life cycle</li>
-                            </ul>
-                        </div>
-                        <div class="col-six">
-                            <ul class="pudding-check-list">
-                                <li>Variable logo or text display (up to 6 images in rotation)</li>
-                                <li>Customizable display and branding</li>
-                            </ul>
-                        </div>
+                    <div class="col-six">
+                        <ul class="pudding-check-list">
+                            <li>Variable logo or text display (up to 6 images in rotation)</li>
+                            <li>Customizable display and branding</li>
+                        </ul>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-full center-align switch-block switch-old hidden">
-                    <h2 class="mb-16">
-                        Current digital OTP from other companies
-                    </h2>
+            <div class="col-full center-align switch-block switch-old hidden">
+                <h2 class="mb-16">
+                    Current digital OTP from other companies
+                </h2>
 
-                    <img src="assets/img/products/oldotp.png" alt="" class="pudding-tilt">
+                <img src="assets/img/products/oldotp.png" alt="" class="pudding-tilt">
 
-                    <ul class="none">
-                        <li>Small Display</li>
-                        <li>Limited to No customization and branding options</li>
-                        <li>Applicable only for horizontal display</li>
-                    </ul>
-                </div>
+                <ul class="none">
+                    <li>✖️ Small Display</li>
+                    <li>✖️ Limited to No customization and branding options</li>
+                    <li>✖️ Applicable only for horizontal display</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -1060,7 +1069,9 @@ else:
     <script src="js/main.js"></script>
 
     <script>
-         var options = {
+        hljs.highlightAll();
+
+        var options = {
             // autoPlay: true,
             autoPlay: 6000,
             accessibility: true,
@@ -1126,7 +1137,5 @@ else:
             $('.supported-language--content.' + $(this).attr('data-cat')).removeClass('hidden');
         });
     </script>
-
-    <script>hljs.highlightAll();</script>
     
 </body>
