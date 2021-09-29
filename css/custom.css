@@ -2250,6 +2250,7 @@
  
  .products-card--img img {
      width: 256px;
+     min-height: 256px;
  }
  
  
@@ -2572,6 +2573,44 @@
      padding: 0;
      border-radius: 6px;
  }
+
+ /* ## Demo */
+.switch-item {
+    cursor: pointer;
+}
+
+.switch-new--features {
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.switch-new--features img {
+    width: 40px;
+    margin-right: 15px;
+}
+
+.switch-old .none {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+ .demo-card {
+     color: #FFFFFF;
+     background-color: #20ACE2;
+     border-radius: 20px;
+     padding: 5rem;
+ }
+
+ .demo-card * {
+     color: #FFFFFF;
+ }
+
+ .demo-card input {
+     background: #FFFFFF;
+ }
  
   /* # Snippets
   * ----------------------------------------------------- */
@@ -2591,18 +2630,7 @@
  /* # Custom Fonts
   * ----------------------------------------------------- */
  /* ## Avenir Next LT Pro */
- .custom-font-wrapper {
- 
- }
- 
- .custom-font-column {
- 
- }
- 
- .custom-font-sans {
- 
- }
- 
+
  .avenir-normal * {
      font-family: var(--font-sans);
      font-style: normal;

@@ -71,15 +71,18 @@
             
             <div class="home-content">
                 <div class="row home-content__main main-slide">
-                    <h3 class="subhead">Welcome to Pudding:</h3>
+                    <h3 class="subhead">Welcome to Pudding</h3>
 
-                    <h1 class="center-align">
+                    <!-- <h1 class="center-align">
                         The World's First Precision Digital Alibi Device
                     </h1>
 
-                    <p class="center-align">with presence accuracy of 60 seconds</p>
-                    
+                    <p hidden class="center-align">with presence accuracy of 60 seconds</p> -->
 
+                    <h1 class="center-align">The proof is in the pudding!</h1>
+
+                    <p class="center-align" style="font-size: 2.5rem; margin: 2rem 6rem 0;">Meaning that the real worth, success, or effectiveness of something can only be determined by putting it to the test by trying or using it, appearances and promises aside.</p>
+                    
                     <div hidden class="home-bottom">
                         <ul class="hero-list hero-list--inline">
                             <li>Smart. </li>
@@ -542,7 +545,7 @@
             </div>
         </div>
     </section>
-
+    
     <section id="features" class="s-section target-section">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0A2C5A" fill-opacity="1" d="M0,224L120,288L240,64L360,320L480,64L600,224L720,192L840,320L960,32L1080,32L1200,64L1320,288L1440,128L1440,0L1320,0L1200,0L1080,0L960,0L840,0L720,0L600,0L480,0L360,0L240,0L120,0L0,0Z"></path></svg>
 
@@ -572,6 +575,48 @@
                 </ul>
 
                 <a href="#!" class="pudding-btn primary-btn large-btn rounded-btn">Explore More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="s-section section--greyest target-section">
+        <div class="row narrow section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead center-align">Make a switch now</h3>
+                
+                <h1 class="display-1 center-align">Why switch to us?</h1>
+                
+                <ul class="stats-tabs center-align">
+                    <li class="switch-item active" data-switch="switch-new"><a>☑️ In with the new</a></li>
+                    <li class="switch-item" data-switch="switch-old"><a style="color: red;">❌ Out with the old </a></li>
+                </ul>
+
+                <div class="col-full switch-block switch-new">
+                    <h2 class="center-align mb-16">Redesigned 2FA OTP tokens</h2>
+
+                    <div class="col-six">
+                        <img src="assets/img/products/product-otp.png" alt="" class="pudding-tilt">
+                    </div>
+                    <div class="col-six pt-16">
+                        <div class="switch-new--features"><img src="assets/img/products/1.png" alt=""> Colored</div>
+                        <div class="switch-new--features"><img src="assets/img/products/2.png" alt=""> 3.92cm screen</div>
+                        <div class="switch-new--features"><img src="assets/img/products/3.png" alt=""> 152x152 resolution</div>
+                    </div>
+                </div>
+
+                <div class="col-full center-align switch-block switch-old hidden">
+                    <h2 class="mb-16">
+                        Current digital OTP from other companies
+                    </h2>
+
+                    <img src="assets/img/products/oldotp.png" alt="" class="pudding-tilt">
+
+                    <ul class="none">
+                        <li>Small Display</li>
+                        <li>Limited to No customization and branding options</li>
+                        <li>Applicable only for horizontal display</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -1057,9 +1102,14 @@ else:
         setTimeout(function () {
             $slideContent.addClass('mask');
         }, 500);
-    </script>
 
-    <script>
+        $('.switch-item').on('click', function() {
+            $('.switch-item').removeClass('active');
+            $(this).addClass('active');
+            $('.switch-block').addClass('hidden');
+            $('.switch-block.' + $(this).attr('data-switch')).removeClass('hidden');
+        });
+
         $('.supported-language--list-item').unbind().click(function () {
             $('.supported-language--list-item').removeClass('active');
             $(this).addClass('active');

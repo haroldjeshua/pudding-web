@@ -352,7 +352,7 @@
    /* Tilt
     * ------------------------------------------------------ */
     var clTilt = function() {
-        $('.career-list-block').tilt({
+        $('.career-list-block, .pudding-tilt').tilt({
             glare: true,
             maxGlare: .25,
             perspective: 1000,
