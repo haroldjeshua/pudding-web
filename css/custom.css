@@ -1505,12 +1505,13 @@ ul.hero-list li i {
 }
 
 ul.hero-list.hero-list--inline {
-    color: #ffffff;
+    color: #0A2C5A;
 }
 
 ul.hero-list.hero-list--inline li {
     display: inline-block;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    font-weight: 600;
 }
 
 .hero-slider {
@@ -1919,6 +1920,14 @@ ul.hero-list.hero-list--inline li {
 
 .features-section-divider .shape-fill {
     fill: #FAFAFA;
+}
+
+.features-block {
+    margin-top: 5rem;
+}
+
+.features-block .col-block {
+    text-align: center;
 }
 
 #why.s-section {
