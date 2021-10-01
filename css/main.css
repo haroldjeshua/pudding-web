@@ -710,7 +710,7 @@ select {
   line-height: 3.2rem;
   max-width: 100%;
   background-color: rgba(0, 0, 0, 0.1);
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -784,8 +784,7 @@ input[type="password"]:focus,
 textarea:focus,
 select:focus {
   color: #000000;
-  box-shadow: 0 0 5px rgba(0, 166, 80, 0.8);
-  border: 1px solid var(--primary-main);
+  border: 2px solid var(--primary-main);
 }
 
 label,
@@ -1547,8 +1546,8 @@ input::-moz-focus-inner {
   font-family: var(--font-sans);
 }
 
-.display-1.display--sans-condesed {
-  font-family: var(--font-sans-condesed);
+.display-1.display--sans-condensed {
+  font-family: var(--font-sans-condensed);
 }
 
 .display-1.display--serif {
@@ -3233,9 +3232,9 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-pricing {
-  padding-top: 19.2rem;
-  padding-bottom: 17.6rem;
-  background-color: var(--primary-light);
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+  background-color: var(--primary-grey-light);
   position: relative;
 }
 
@@ -3314,8 +3313,8 @@ html.no-csstransitions .home-content__main {
 
 .item-plan--popular .btn:hover,
 .item-plan--popular .btn:focus {
-  background-color: #006933;
-  border: 0.2rem solid #006933;
+  background-color: var(--primary-main-dark);
+  border: 0.2rem solid var(--primary-main-dark);
   color: var(--primary-light);
 }
 
