@@ -746,12 +746,12 @@ video.responsive-video {
     background: var(--primary-grey);
 }
 
-.pudding-btn.secondary-btn.red-sec {
+.pudding-btn.secondary-btn.main-sec {
     border: 0.15rem solid var(--primary-main);
     color: var(--primary-main) !important;
 }
 
-.pudding-btn.secondary-btn.red-sec:hover {
+.pudding-btn.secondary-btn.main-sec:hover {
     background: var(--primary-main);
     color: var(--primary-light) !important;
 }

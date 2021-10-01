@@ -2,8 +2,8 @@
 
 /* =================================================================== 
  *
- *  Standout v1.0 Main Stylesheet
- *  09-12-2018
+ *  Pudding 2021 Main Stylesheet
+ *  10-01-2021
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -1194,7 +1194,7 @@ input::-moz-focus-inner {
  *
  * Extend this object into your markup.
  *
- * --------------------------------------------------------------------- */
+ * --------------------------------------------------------------------- **/
 .stats-tabs {
   padding: 0;
   margin: 3.2rem 0;
@@ -1570,9 +1570,10 @@ input::-moz-focus-inner {
 .subhead {
   margin-top: 0;
   color: var(--primary-main);
-  font-size: 1.75rem;
+  font-family: var(--font-sans);
+  font-size: 1.65rem;
   font-weight: 600;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.65rem;
   line-height: 1.1667;
   text-transform: uppercase;
   margin-bottom: 4rem; /* .8rem */
@@ -1853,24 +1854,24 @@ input::-moz-focus-inner {
   color: var(--primary-dark);
 }
 
-.pudding-index .header-nav-wrap .header-main-nav li a,
-.pudding-index .header-nav-wrap .header-main-nav li a:visited {
+.s-header--dark .header-nav-wrap .header-main-nav li a,
+.s-header--dark .header-nav-wrap .header-main-nav li a:visited {
   color: var(--primary-light);
   outline: none;
 }
 
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li a,
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li a:visited {
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li a,
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li a:visited {
   color: var(--primary-dark);
   outline: none;
 }
 
-.pudding-index .header-nav-wrap.mobile .header-main-nav li a {
+.s-header--dark .header-nav-wrap.mobile .header-main-nav li a {
   color: var(--primary-dark);
 }
 
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li a:hover, 
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li a:focus {
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li a:hover, 
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li a:focus {
   color: var(--primary-main);
 }
 
@@ -1879,14 +1880,14 @@ input::-moz-focus-inner {
 }
 
 .header-nav-wrap .header-main-nav li:hover > a, 
-.pudding-index .header-nav-wrap .header-main-nav li:hover > a, 
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li:hover > a {
+.s-header--dark .header-nav-wrap .header-main-nav li:hover > a, 
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li:hover > a {
   color: var(--primary-main);
 }
 
 .header-nav-wrap .header-main-nav li.active > a, 
-.pudding-index .header-nav-wrap .header-main-nav li.active > a, 
-.pudding-index .s-header.sticky .header-nav-wrap .header-main-nav li.active > a {
+.s-header--dark .header-nav-wrap .header-main-nav li.active > a, 
+.s-header.s-header--dark.sticky .header-nav-wrap .header-main-nav li.active > a {
   color: var(--primary-main);
 }
 
