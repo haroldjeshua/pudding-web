@@ -1864,7 +1864,7 @@ ul.hero-list.hero-list--inline li {
 
 #features.s-section {
     background-color: #fff;
-    color: #121619;
+    color: var(--primary-dark);
     padding-top: 15rem;
     position: relative;
     overflow: hidden;
@@ -1928,6 +1928,14 @@ ul.hero-list.hero-list--inline li {
 
 .features-block .col-block {
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+.features-block p {
+    color: var(--primary-main-dark);
+    font-size: 1.55rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 #why.s-section {

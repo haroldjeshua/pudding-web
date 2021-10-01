@@ -1657,32 +1657,6 @@ ol.linenums {
   margin-top: 0;
   margin-bottom: 0;
 }
-
-/* IE indents via margin-left */
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L4,
-li.L5,
-li.L6,
-li.L7,
-li.L8,
-li.L9 {
-
-  /* */
-}
-
-/* Alternate shading for lines */
-li.L1,
-li.L3,
-li.L5,
-li.L7,
-li.L9 {
-
-  /* */
-}
-
 /* ===================================================================
  * # flickity v2.2.0
  * https://flickity.metafizzy.co/
@@ -1712,7 +1686,6 @@ li.L9 {
 
 .flickity-enabled.is-draggable {
   -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
