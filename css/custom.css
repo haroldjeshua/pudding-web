@@ -1251,6 +1251,26 @@ video.responsive-video {
     overflow: hidden;
 }
 
+.s-hero-thumb {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 500px;
+    transform: rotateY(180deg);
+}
+
+@media only screen and (max-width: 1000px) {
+    .s-hero-thumb {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .s-hero-thumb {
+        position: unset;
+    }
+}
+
 .s-hero.hero--main {
     background-color: var(--primary-main);
     color: var(--primary-light);
@@ -1844,7 +1864,7 @@ ul.hero-list.hero-list--inline li {
 #features.s-section {
     background-color: #fff;
     color: #121619;
-    padding-top: 0;
+    padding-top: 15rem;
     position: relative;
     overflow: hidden;
 }
@@ -1852,7 +1872,7 @@ ul.hero-list.hero-list--inline li {
 .features-wrapper {
     padding-top: 7rem;
     position: relative;
-    background-image: url(../assets/img/backgrounds/features.png);
+    /* background-image: url(../assets/img/backgrounds/features.png); */
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: left center;
@@ -1899,6 +1919,10 @@ ul.hero-list.hero-list--inline li {
 
 .features-section-divider .shape-fill {
     fill: #FAFAFA;
+}
+
+#why.s-section {
+    padding-bottom: 18rem;
 }
 
 .s-supported-logo {
