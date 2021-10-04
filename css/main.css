@@ -2045,13 +2045,17 @@ input::-moz-focus-inner {
 }
 
 @media only screen and (max-width:1200px) {
+  .header-logo {
+    left: 24px;
+  }
+
   .header-logo img {
     width: 135px;
     height: 15px;
   }
 
   .header-nav-wrap .header-main-nav {
-    padding-left: 250px;
+    padding-left: 200px;
   }
 
   .header-nav-wrap .header-social li a {
