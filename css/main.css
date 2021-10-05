@@ -4988,3 +4988,7 @@ body.search-is-visible {
   }
 
 }
+
+.test-model .spline-watermark img {
+  display: none;
+}
