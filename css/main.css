@@ -4939,7 +4939,6 @@ body.search-is-visible {
   .comments-wrap .comment-respond {
     margin-top: 4.4rem;
   }
-
 }
 
 @media only screen and (max-width:800px) {
@@ -4948,7 +4947,6 @@ body.search-is-visible {
     height: 5.2rem;
     width: 5.2rem;
   }
-
 }
 
 @media only screen and (max-width:600px) {
@@ -4972,23 +4970,16 @@ body.search-is-visible {
   .comment ul.children li {
     margin-top: calc(3.2rem + 0rem);
   }
-
 }
 
 @media only screen and (max-width:500px) {
   .comment ul.children li {
     border-left: none;
   }
-
 }
 
 @media only screen and (max-width:400px) {
   .comment-respond form {
     padding-top: 3.2rem;
   }
-
-}
-
-.test-model .spline-watermark img {
-  display: none;
 }
