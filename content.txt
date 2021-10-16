@@ -31,3 +31,26 @@ Over 5 million Power Transmission towers
 Delivery confirmation
 
 Address location and presence.
+
+-----------------------------------------
+
+folder tree:
+
+used pages:
+
+- index.html
+- product.html
+- solutions.html
+    > proof-of-presence.html
+    > proof-of-compliance.html
+    > assets-management.html
+- pricing.html
+- about.html
+- faqs.html
+- docs.html
+- developers.html
+- blog.html
+- careers.html
+- signup.html
+- login.html
+- contact.html

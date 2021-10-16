@@ -115,7 +115,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #000000;
+  color: #0A2C5A;
 }
 
 a:hover,
@@ -385,7 +385,7 @@ dfn[title] {
 
 mark {
   background: #ffd900;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 hr {
@@ -529,7 +529,7 @@ td {
 }
 
 th {
-  color: #000000;
+  color: #0A2C5A;
   font-family: var(--font-sans);
   font-weight: 700;
 }
@@ -783,7 +783,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #000000;
+  color: #0A2C5A;
   border: 2px solid var(--primary-main);
 }
 
@@ -794,7 +794,7 @@ legend {
   font-size: 1.4rem;
   line-height: 1.714;
   margin-bottom: .8rem;
-  color: #000000;
+  color: #0A2C5A;
   display: block;
 }
 
@@ -906,7 +906,7 @@ input[type="button"] {
   padding: 0 3.2rem;
   margin: 0 .4rem 1.6rem 0;
   border-radius: 5px;
-  color: #000000;
+  color: #0A2C5A;
   text-decoration: none;
   text-align: center;
   white-space: nowrap;
@@ -929,7 +929,7 @@ input[type="reset"]:focus,
 input[type="button"]:focus {
   background-color: #b8b8b8;
   border-color: #b8b8b8;
-  color: #000000;
+  color: #0A2C5A;
   outline: 0;
 }
 
@@ -982,14 +982,14 @@ button.btn--large {
 .btn--stroke,
 button.btn--stroke {
   background: transparent !important;
-  border: 0.2rem solid #000000;
-  color: #000000;
+  border: 0.2rem solid #0A2C5A;
+  color: #0A2C5A;
 }
 
 .btn--stroke:hover,
 button.btn--stroke:hover {
-  background: #000000 !important;
-  border: 0.2rem solid #000000;
+  background: #0A2C5A !important;
+  border: 0.2rem solid #0A2C5A;
   color: var(--primary-light);
 }
 
@@ -1219,7 +1219,7 @@ input::-moz-focus-inner {
   font-size: 2.5rem;
   line-height: 1.6;
   border: none;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .stats-tabs li a:hover {
@@ -1260,7 +1260,7 @@ input::-moz-focus-inner {
   top: -4rem;
   font-family: var(--font-sans);
   font-weight: 700;
-  color: #000000;
+  color: #0A2C5A;
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.4rem;
@@ -1268,7 +1268,7 @@ input::-moz-focus-inner {
 }
 
 .skill-bars li .progress {
-  background: #000000;
+  background: #0A2C5A;
   position: relative;
   height: 100%;
 }
@@ -1282,7 +1282,7 @@ input::-moz-focus-inner {
   color: var(--primary-light);
   font-size: 1.1rem;
   line-height: 1;
-  background: #000000;
+  background: #0A2C5A;
   padding: .8rem .8rem;
   border-radius: 3px;
 }
@@ -1294,7 +1294,7 @@ input::-moz-focus-inner {
   margin-left: -5px;
   border-right: 5px solid transparent;
   border-left: 5px solid transparent;
-  border-top: 5px solid #000000;
+  border-top: 5px solid #0A2C5A;
   content: "";
 }
 
@@ -1409,7 +1409,7 @@ input::-moz-focus-inner {
   padding: .2rem 1.2rem;
   height: 3.6rem;
   margin: .2rem .2rem;
-  color: #000000;
+  color: #0A2C5A;
   border-radius: 3px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -1417,7 +1417,7 @@ input::-moz-focus-inner {
 
 .pgn__num:hover {
   background: #DDDDDD;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .pgn .current,
@@ -2392,7 +2392,7 @@ input::-moz-focus-inner {
   line-height: 5.6rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #000000;
+  color: #0A2C5A;
   border-bottom: 1px solid transparent;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2410,7 +2410,7 @@ input::-moz-focus-inner {
   display: block;
   height: 5.6rem;
   width: 5.6rem;
-  background-color: #000000;
+  background-color: #0A2C5A;
   background-image: url(../images/icons/icon-arrow-down.svg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3260,7 +3260,7 @@ html.no-csstransitions .home-content__main {
   font-size: 2rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #000000;
+  color: #0A2C5A;
   margin: 0 0 1.6rem 0;
 }
 
@@ -3274,7 +3274,7 @@ html.no-csstransitions .home-content__main {
   font-size: 5.4rem;
   line-height: 1.185;
   font-weight: 800;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .item-plan__per {
@@ -3312,7 +3312,7 @@ html.no-csstransitions .home-content__main {
 .item-plan--popular .btn {
   background-color: var(--primary-light);
   border: 0.2rem solid var(--primary-light);
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .item-plan--popular .btn:hover,
@@ -3876,7 +3876,7 @@ html.no-csstransitions .home-content__main {
   line-height: 5.6rem;
   text-align: center;
   background-image: url(../images/icons/icon-arrow-up.svg);
-  background-color: #000000;
+  background-color: #0A2C5A;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 10px 15px;
@@ -4366,7 +4366,7 @@ body.search-is-visible {
   left: 50%;
   top: 50%;
   text-align: center;
-  color: #000000;
+  color: #0A2C5A;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all 0.3s ease-in-out;
@@ -4408,7 +4408,7 @@ body.search-is-visible {
 }
 
 .entries .item-entry__title a {
-  color: #000000;
+  color: #0A2C5A;
   border-bottom: 1px solid transparent;
 }
 
@@ -4431,7 +4431,7 @@ body.search-is-visible {
 
 .entries .item-entry__cat a:hover,
 .entries .item-entry__cat a:focus {
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .entries .item-entry__content p {
@@ -4558,7 +4558,7 @@ body.search-is-visible {
   font-weight: 700;
   font-size: 3rem;
   line-height: 1.4667;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .blog-single-nav a:hover,
@@ -4842,7 +4842,7 @@ body.search-is-visible {
   font-size: 1.9rem;
   line-height: 1.684;
   font-style: normal;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .comment__meta {
@@ -4871,7 +4871,7 @@ body.search-is-visible {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .2rem;
-  color: #000000;
+  color: #0A2C5A;
 }
 
 .comment__text {
